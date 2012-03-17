@@ -172,9 +172,6 @@ if config['rspec']
   if config['factory_girl']
     gem 'factory_girl_rails', '>= 2.0.0.rc', :group => [:development, :test]
   end
-
-RUBY
-  end
 else
   recipes.delete('rspec')
 end
